@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HibernateOneToManyDemo</groupId>
+  <artifactId>HibernateOneToManyDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>6.2.7.Final</version>
+		    <type>pom</type>
+		</dependency>
+		
+
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.28</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.tutorials</groupId>
+			<artifactId>hibernate-tutorial-annotations</artifactId>
+			<version>6.2.17.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				lab_14_Relation_OTO_OTM_Eager_and_Lazy_loading
+			</groupId>
+			<artifactId>
+				lab_14_Relation_OTO_OTM_Eager_and_Lazy_loading
+			</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+</project>
